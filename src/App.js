@@ -31,7 +31,7 @@ import Payment from "./Components/Payment";
 function App() {
   return (
     <div className="App">
-      <Router>
+       <Router basename="/hp">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/signup" component={Signup} />
